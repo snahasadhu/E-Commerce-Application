@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@drawable/background"
+tools:context=".home" android:orientation="vertical">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+
+            <Button
+            android:id="@+id/settings_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/buttons"
+            android:padding="17dp"
+            android:text="Settings"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+
+            <TextView
+            android:id="@+id/product_name1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/settings_btn"
+            android:text="Shirt"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/purple"
+            android:gravity="center_horizontal" />
+
+            <ImageView
+            android:id="@+id/product_image1"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_below="@+id/product_name1"
+            android:src="@drawable/shirt"
+            android:scaleType="centerCrop"
+            android:layout_marginTop="2dp"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_horizontal"
+            />
+
+            <TextView
+            android:id="@+id/product_description1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/product_image1"
+            android:text="Light Pink Cotton Executive Shirt "
+            android:layout_marginTop="2dp"
+            android:textSize="16dp"
+            android:textColor="@color/purple"
+            android:textAlignment="center"
+            android:gravity="center_horizontal" />
+            <TextView
+            android:id="@+id/product_price1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/product_description1"
+            android:text="price 1500"
+            android:textAlignment="center"
+            android:textSize="18dp"
+            android:textColor="@color/purple"
+            android:gravity="center_horizontal" />
+
+            <TextView
+                android:id="@+id/c1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/product_price1"
+                android:text="Add to Cart"
+                android:textColor="@color/purple"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_alignParentStart="true"
+
+
+                />
+
+            <TextView
+                android:id="@+id/o1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/product_price1"
+                android:text="Order"
+                android:textColor="@color/purple"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginRight="10dp"
+                android:layout_alignParentEnd="true"
+
+                />
+
+            <TextView
+                android:id="@+id/product_name2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/o1"
+                android:text="Shirt"
+                android:textAlignment="center"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="@color/purple"
+                android:gravity="center_horizontal" />
+
+            <ImageView
+                android:id="@+id/product_image2"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_below="@+id/product_name2"
+                android:src="@drawable/shirt2"
+                android:scaleType="centerCrop"
+                android:layout_marginTop="2dp"
+                android:layout_centerHorizontal="true"
+                android:gravity="center_horizontal"
+                />
+
+            <TextView
+                android:id="@+id/product_description2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/product_image2"
+                android:text="Light Pink Cotton Executive Shirt "
+                android:layout_marginTop="2dp"
+                android:textSize="16dp"
+                android:textColor="@color/purple"
+                android:textAlignment="center"
+                android:gravity="center_horizontal" />
+            <TextView
+                android:id="@+id/product_price2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/product_description2"
+                android:text="price 1500"
+                android:textAlignment="center"
+                android:textSize="18dp"
+                android:textColor="@color/purple"
+                android:gravity="center_horizontal" />
+            <TextView
+                android:id="@+id/c2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/product_price2"
+                android:text="Add to Cart"
+                android:textColor="@color/purple"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_alignParentStart="true"
+
+
+                />
+
+            <TextView
+                android:id="@+id/o2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/product_price2"
+                android:text="Order"
+                android:textColor="@color/purple"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginRight="10dp"
+                android:layout_alignParentEnd="true"
+
+                />
+            <TextView
+                android:id="@+id/product_name3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/o2"
+                android:text="Salwar Kameez"
+                android:textAlignment="center"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="@color/purple"
+                android:gravity="center_horizontal" />
+
+            <ImageView
+                android:id="@+id/product_image3"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_below="@+id/product_name3"
+                android:src="@drawable/sal"
+                android:scaleType="centerCrop"
+                android:layout_marginTop="2dp"
+                android:layout_centerHorizontal="true"
+                android:gravity="center_horizontal"
+                />
+
+            <TextView
+                android:id="@+id/product_description3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/product_image3"
+                android:text="Orange Printed and Embroidered Hand Loomed Cotton Shalwar Kameez Set "
+                android:layout_marginTop="2dp"
+                android:textSize="16dp"
+                android:textColor="@color/purple"
+                android:textAlignment="center"
+                android:gravity="center_horizontal" />
+            <TextView
+                android:id="@+id/product_price3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/product_description3"
+                android:text=" price 3500"
+                android:textAlignment="center"
+                android:textSize="18dp"
+                android:textColor="@color/purple"
+                android:gravity="center_horizontal" />
+            <TextView
+                android:id="@+id/c3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/product_price3"
+                android:text="Add to Cart"
+                android:textColor="@color/purple"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_alignParentStart="true"
+
+
+                />
+
+            <TextView
+                android:id="@+id/o3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/product_price3"
+                android:text="Order"
+                android:textColor="@color/purple"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginRight="10dp"
+                android:layout_alignParentEnd="true"
+
+                />
+            <TextView
+                android:id="@+id/product_name4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/o3"
+                android:text="Sunglass"
+                android:textAlignment="center"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="@color/purple"
+                android:gravity="center_horizontal" />
+
+            <ImageView
+                android:id="@+id/product_image4"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_below="@+id/product_name4"
+                android:src="@drawable/sun"
+                android:scaleType="centerCrop"
+                android:layout_marginTop="2dp"
+                android:layout_centerHorizontal="true"
+                android:gravity="center_horizontal"
+                />
+
+            <TextView
+                android:id="@+id/product_description4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/product_image4"
+                android:text="sunglasses for Men for Summer 2020 "
+                android:layout_marginTop="2dp"
+                android:textSize="16dp"
+                android:textColor="@color/purple"
+                android:textAlignment="center"
+                android:gravity="center_horizontal" />
+            <TextView
+                android:id="@+id/product_price4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/product_description4"
+                android:text="price 500"
+                android:textAlignment="center"
+                android:textSize="18dp"
+                android:textColor="@color/purple"
+                android:gravity="center_horizontal" />
+            <TextView
+                android:id="@+id/c4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/product_price4"
+                android:text="Add to Cart"
+                android:textColor="@color/purple"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_alignParentStart="true"
+
+
+                />
+
+            <TextView
+                android:id="@+id/o4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/product_price4"
+                android:text="Order"
+                android:textColor="@color/purple"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginRight="10dp"
+                android:layout_alignParentEnd="true"
+
+                />
+
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>
